@@ -1,0 +1,21 @@
+{
+  "name": "hello-ci-workflow",
+  "version": "1.0.0",
+  "description": "CI Trying",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "CI"
+  ],
+  "author": "Theo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
